@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin's Wine Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>Wine Tracker</h1>
+      <p class="last-updated">Data as of <span id="last-updated">—</span></p>
+    </div>
+  </header>
+
+  <main>
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search wines, regions, tasting notes…" autocomplete="off">
+      <div class="filter-chips" id="type-filters"></div>
+      <select id="score-filter">
+        <option value="0">All scores</option>
+        <option value="4">4+ stars</option>
+        <option value="4.5">4.5+ stars</option>
+        <option value="5">5 stars only</option>
+      </select>
+      <label class="filter-check">
+        <input type="checkbox" id="buy-again-filter">
+        Buy again only
+      </label>
+    </div>
+    <div class="result-count" id="result-count"></div>
+    <div class="wine-grid" id="wine-grid"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
