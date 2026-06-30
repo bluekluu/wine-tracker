@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-29",
   "wines": [
     {
       "date": "2026-06-05",
@@ -82,7 +82,7 @@
       "name": "Clos de Napa Cellars Reserve Cabernet Sauvignon",
       "vintage": "2023",
       "region": "Napa Valley, California",
-      "taste": "Sweet fruits, dark cherry, black berries, licorice, graphite, silky tannins, blueberries, loam.",
+      "taste": "Sweet fruits, dark cherry, black berries, licorice, graphite, silky tannins, blueberries, loam",
       "price": 14.99,
       "store": "Costco",
       "score": 3.0,
@@ -97,11 +97,11 @@
       "name": "Taittinger Brut La Française Champagne",
       "vintage": "NV",
       "region": "Champagne, France",
-      "taste": "Peach, apple, honey, vanilla, brioche.",
+      "taste": "Peach, apple, honey, vanilla, brioche",
       "price": 64.00,
       "store": "Wine.com",
       "score": 5.0,
-      "notes": "Really tasty, lots of complexity.",
+      "notes": "Really tasty, lots of complexity",
       "buyAgain": true,
       "source": "Delta First Class (SEA-HND)",
       "image": "images/taittinger-brut-la-francaise.jpg"
@@ -112,14 +112,28 @@
       "name": "Stag's Leap Wine Cellars Artemis Cabernet Sauvignon",
       "vintage": "NV",
       "region": "Napa Valley, California",
-      "taste": "Full bodied, boysenberry, blackcurrant, subtle baking spice, velvety tannins.",
+      "taste": "Full bodied, boysenberry, blackcurrant, subtle baking spice, velvety tannins",
       "price": 70.00,
       "store": "Wine.com",
       "score": 5.0,
-      "notes": "Really tasty, lots of complexity.",
+      "notes": "Really tasty, lots of complexity",
       "buyAgain": true,
       "source": "Delta First Class (SEA-HND)",
       "image": "images/stags-leap-artemis.jpg"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "Cabernet Sauvignon",
+      "name": "Introvert Reserve Cabernet Sauvignon",
+      "vintage": "2024",
+      "region": "California, USA",
+      "taste": "Dark plum, cassis (black currant), dried cherry, tart raspberry, toasted oak, vanilla, clove, hints of black olive and dark chocolate. Dry, medium- to full-bodied with moderate tannins and a smooth finish.",
+      "price": 14.99,
+      "store": "Costco",
+      "score": 3.0,
+      "notes": "Easy to drink, simple (not much complexity).",
+      "buyAgain": true,
+      "source": "Costco"
     }
   ]
 }
